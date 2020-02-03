@@ -117,7 +117,7 @@
       background: #000;
       position: relative;
 
-      &:after {
+      &:before {
         content: "";
         position: absolute;
         top: 100%;
@@ -129,6 +129,10 @@
         border-width: 13px 10px 0 10px;
         border-color: #000000 transparent transparent transparent;
       }
+    }
+
+    .dropdown-menu {
+      top: calc(100% + 12px);
     }
   }
 
